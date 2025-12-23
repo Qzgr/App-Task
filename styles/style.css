@@ -1,0 +1,55 @@
+body{
+    background-color: antiquewhite;
+}
+
+.cont-menu button{
+    height: 5dvb;
+    width: auto;
+    margin: 0 10px 20px 10px;
+    border-radius: 20px;
+    border: 2px black solid;
+    /* Evita el highlight por defecto en dispositivos táctiles */
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* :hover sólo en dispositivos que soportan hover (ratón/trackpad) */
+@media (hover: hover) and (pointer: fine) {
+    .cont-menu button:hover{
+        cursor: pointer;
+        background-color: aquamarine;
+    }
+
+    /* inputs dentro de listas también muestran cursor en hover sólo en desktop */
+    .cont-list-tasks input:hover{
+        cursor: pointer;
+    }
+}
+
+/* En dispositivos táctiles, usar :active para aplicar el color sólo mientras se mantiene pulsado */
+.cont-menu button:active{
+    background-color: aquamarine;
+}
+
+.cont-menu input{
+    width: 40dvb;
+    height: 3dvb;
+    border-radius: 20px;
+    border: 2px black solid
+}
+
+.cont-list-tasks h2{
+    font-size: 30px;
+}
+
+.cont-list-tasks li{
+    list-style: none;
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.cont-list-tasks input{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
