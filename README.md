@@ -1,4 +1,4 @@
-# Proyect-tareas
+# App-tareas
 
 > Aplicación simple de lista de tareas para el navegador.
 
@@ -34,3 +34,4 @@ Proyecto pequeño que permite agregar, marcar como completadas, eliminar y limpi
 Puedes abrir issues o proponer mejoras. Para cambios locales, editar los archivos dentro de `Proyect-tareas/`, probar en el navegador y enviar un PR si corresponde.
 
 ---
+
