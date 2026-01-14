@@ -53,3 +53,8 @@ body{
     height: 20px;
     margin-right: 10px;
 }
+
+.cont-list-tasks input:checked + span{
+    text-decoration: line-through;
+    color: gray;
+}
